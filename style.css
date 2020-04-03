@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blink {
+    animation: blinking 1.2s infinite;
+}
+
+@keyframes blinking {
+
+    0% {
+        color: #000;
+    }
+    49%{
+        color: #000;
+    }
+    60% {
+        color: transparent;
+    }
+    99%{
+        color: transparent;
+    }
+    100%{
+        color: #000;
+    }
+
+}
